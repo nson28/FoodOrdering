@@ -7,8 +7,7 @@ export default function OrdersScreen(){
         <FlatList
             data= {orders}
             renderItem={({item})=> <OrderListItem order={item}/>}
-            contentContainerStyle ={{gap:10, padding:10}}
-         
+            contentContainerStyle ={{gap:10, padding:10}}        
         
         />
     )
